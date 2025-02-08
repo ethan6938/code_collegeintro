@@ -27,7 +27,7 @@ function moveleftright(b) {
 function moverightdown(n) {
     var robot = n.target;
     var left = 65;
-    var id = setInterval(frame,10) // draw every 5ms
+    var id = setInterval(frame,10) // draw every 10ms
     function frame() {
         robot.style.left = left + '%';
         left--;
